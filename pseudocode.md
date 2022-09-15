@@ -27,3 +27,7 @@ p class hour
 * will use get day, month, and year for the date
 
 * will use replaceAll to replace inserts
+
+ ## alarm
+ * function will check if getHour and getMinute value are the same as what the user has entered
+        *if so display a message
