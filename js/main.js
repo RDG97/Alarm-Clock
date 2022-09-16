@@ -1,7 +1,7 @@
-// get time functions
+// get time functions and replace inserts
 const dt = new Date();
 
-//replace times
+
 const timePlace = document.querySelector('.timePlace');
 const seconds = document.querySelector('.seconds');
 
@@ -9,6 +9,7 @@ const time = ':hour:::min:';
 const sec = ':sec:.:mil:';
 
 
+//display time
 
 setInterval(updateTime, 1);
 
@@ -30,10 +31,9 @@ seconds.textContent = currentSec;
 const alarmB = document.querySelector('.alarmB');
 const setHour = document.querySelector('.setHour');
 const setMin = document.querySelector('.setMin');
+
 let alarmHour = [];
 let alarmMin = [];
-
-
 
 function setAlarm() {
 const set = alarmHour.push(setHour.value);
@@ -48,10 +48,11 @@ const wokeUp = document.querySelector('.wokeUp');
 const arise = 'WAKE UP';
 
 function wakeUp() {
-wokeUp.textContent = arise;
+    wokeUp.textContent = arise;
 }
 
 
+// check if set alarm time is equal to current time
 
 setInterval(timeCheck, 1);
 

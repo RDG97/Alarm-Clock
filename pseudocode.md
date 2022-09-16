@@ -1,19 +1,28 @@
 # HTML
 div class alarmB
+
     * alarm clock body
+
     *will give the whole thing shape
 
 p class milli
+
     *will have insert in html and replaced with milliseconds in JS
 
 P class sec
+
     *will have insert in html and replaced with seconds in Js
 
 p class min
+
     *will have insert in html and replaced with minutes in JS
 
 p class hour
+
     *will have insert in html and replaced with hours in JS
+
+form for alarm
+    *will have input for hour and min, as well as a submit button
 
 # CSS
 
@@ -27,6 +36,8 @@ p class hour
 * will use get day, month, and year for the date
 
 * will use replaceAll to replace inserts
+
+* will display time and and input form
 
  ## alarm
  * function will check if getHour and getMinute value are the same as what the user has entered
